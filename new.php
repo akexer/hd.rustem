@@ -184,19 +184,19 @@ if (isset($_GET['ok'])) {
 */
 ?>
 
-<!--div class="control-group" id="for_subj">
+<div class="control-group" id="for_subj">
     	<div class="controls">
           <div class="form-group">
     <label for="subj" class="col-sm-2 control-label"><small>Тема: </small></label>
     <div class="col-sm-10">
       <input type="text" class="form-control input-sm" name="subj" id="subj" placeholder="Тема" data-toggle="popover" data-html="true" data-trigger="manual" data-placement="right" data-content="<small>Вкажіть тему заявки</small>">
     </div>
-  </div></div></div-->
+  </div></div></div>
 
 
 
 
-<div class="control-group" id="for_subj" data-toggle="popover" data-html="true" data-trigger="manual" data-placement="right" data-content="<small><?=lang('NEW_subj_msg');?></small>">
+<!--div class="control-group" id="for_subj" data-toggle="popover" data-html="true" data-trigger="manual" data-placement="right" data-content="<small><?=lang('NEW_subj_msg');?></small>">
     <div class="controls">
         <div class="form-group">
             <label for="subj" class="col-sm-2 control-label"><small><?=lang('NEW_subj');?>: </small></label>
@@ -225,7 +225,7 @@ if (isset($_GET['ok'])) {
         </div>
 
     </div>
-</div>
+</div-->
 
 
 
