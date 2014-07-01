@@ -2515,7 +2515,7 @@ var lang_unlock= get_lang_param('JS_unlock');
     });
 
 
-    $('body').on('click', 'button#enter_ticket', function(event) {
+    /*$('body').on('click', 'button#enter_ticket', function(event) {
         event.preventDefault();
         var z=$("#username").text();
         var s=$("#subj").val();
@@ -2646,7 +2646,7 @@ var lang_unlock= get_lang_param('JS_unlock');
 
         }
 
-    });
+    });*/
 
 
 });
