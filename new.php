@@ -246,7 +246,7 @@ if (isset($_GET['ok'])) {
         </div>
         <div class="help-block"></div></div></div>
 
-<!--div class="control-group">
+<div class="control-group">
     <div class="controls">
         <div class="form-group" id="files">
         	<label for="file" class="col-sm-2 control-label"><small>Файли:</small></label>
@@ -272,7 +272,7 @@ if (isset($_GET['ok'])) {
             </div>
         </div>
     </div>
-</div-->
+</div>
 
 
 <div class="col-md-2"></div>
@@ -344,22 +344,22 @@ if (isset($_GET['ok'])) {
 <?php
  include("inc/footer.inc.php");
 ?>
-<!--script src="js/vendor/jquery.ui.widget.js"></script-->
+<script src="js/vendor/jquery.ui.widget.js"></script>
 <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
-<!--script src="js/jquery.iframe-transport.js"></script-->
+<script src="js/jquery.iframe-transport.js"></script>
 <!-- The basic File Upload plugin -->
-<!--script src="js/load-image.min.js"></script-->
+<script src="js/load-image.min.js"></script>
 <!-- The Canvas to Blob plugin is included for image resizing functionality -->
-<!--script src="js/canvas-to-blob.min.js"></script-->
+<script src="js/canvas-to-blob.min.js"></script>
 
-<!--script src="js/jquery.fileupload.js"></script-->
+<script src="js/jquery.fileupload.js"></script>
 <!-- The File Upload processing plugin -->
-<!--script src="js/jquery.fileupload-process.js"></script-->
+<script src="js/jquery.fileupload-process.js"></script>
 <!-- The File Upload image preview & resize plugin -->
-<!--script src="js/jquery.fileupload-image.js"></script-->
-<!--script src="js/jquery.fileupload-validate.js"></script-->
+<script src="js/jquery.fileupload-image.js"></script>
+<script src="js/jquery.fileupload-validate.js"></script>
 
-<!--script>
+<script>
 
 $(function () {
     'use strict';
@@ -624,7 +624,7 @@ $(function () {
         
         
     });});
-</script-->
+</script>
 
 <?php
 	}
